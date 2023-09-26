@@ -1,0 +1,154 @@
+{
+
+  
+  "crops": [
+    {
+      "undergrowth": true,
+      "fertilize": true,
+      "oxygenate": false,
+      "lines": true,
+      "holes": true,
+      "watered": 12,
+      "pestcleaning": 30,
+      "id": 1
+    },
+    {
+      "undergrowth": true,
+      "fertilize": false,
+      "oxygenate": false,
+      "lines": true,
+      "holes": true,
+      "watered": 10,
+      "pestcleaning": 15,
+      "id": 2
+    }
+  ],
+  "order_details": [
+    {
+      "quantity": 10,
+      "product": {
+        "name": "Manzanas Frescas",
+        "description": "Deliciosas manzanas frescas, cosechadas en nuestro huerto local. Perfectas para bocadillos saludables o repostería.",
+        "unit_price": 1.5,
+        "image_url": "https://user-images.githubusercontent.com/104078975/270424147-027de51b-6b9d-4722-b060-e7bdffdc2d48.jpg"
+      }
+    },
+    {
+      "quantity": 10,
+      "product": {
+        "name": "Zanahorias Organicas",
+        "description": "Miel dorada y natural de nuestras colmenas. Endulza tus bebidas y comidas de manera saludable.",
+        "unit_price": 1.5,
+        "image_url": "https://user-images.githubusercontent.com/104078975/270424140-f5c2a814-6c9f-4eff-bc4b-d78c3f35fd6e.jpg"
+      }
+    },
+    {
+      "quantity": 10,
+      "product": {
+        "name": "Miel de Abeja Pura",
+        "description": "Zanahorias de calidad premium, cultivadas sin pesticidas. Ideales para ensaladas y guisos.",
+        "unit_price": 1.5,
+        "image_url": "https://user-images.githubusercontent.com/104078975/270424150-bb4f774c-c3da-49d5-a9e1-2b8eede85fa8.jpg"
+      }
+    }
+  ],
+  "order_payment": [
+    {
+      "ordered_date": "2023-05-09",
+      "order_detail": {
+        "quantity": 20,
+        "product": {
+          "name": "Papas",
+          "unit_price": 1.5
+        }
+      },
+      "payment_method": {
+        "name": "mastercard"
+      }
+    },
+    {
+      "ordered_date": "2023-05-09",
+      "order_detail": {
+        "quantity": 20,
+        "product": {
+          "name": "Camotes",
+          "unit_price": 1.5
+        }
+      },
+      "payment_method": {
+        "name": "mastercard"
+      }
+    },
+    {
+      "ordered_date": "2023-05-09",
+      "order_detail": {
+        "quantity": 20,
+        "product": {
+          "name": "Quinua",
+          "unit_price": 1.5
+        }
+      },
+      "payment_method": {
+        "name": "mastercard"
+      }
+    }
+  ],
+  "products": [
+    {
+      "name": "Papas",
+      "description": "Papas haradas durante bastante tiempo",
+      "unit_price": 1.5,
+      "image_url": "https://user-images.githubusercontent.com/104078975/270422751-ce40fc4a-b351-420d-a06e-14304018bed5.jpg"
+    },
+    {
+      "name": "Cerezos",
+      "description": "Cereza recontra roja",
+      "unit_price": 2.5,
+      "image_url": "https://user-images.githubusercontent.com/104078975/270422759-f481402c-de81-4d95-a694-82fab273adfa.jpg"
+    },
+    {
+      "name": "Arroz",
+      "description": "Arroz bien plantado",
+      "unit_price": 1.5,
+      "image_url": "https://user-images.githubusercontent.com/104078975/270422756-19f2c725-e39b-4319-84c3-efed243898dd.png"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Harar la tierra",
+      "description": "Harar la tierra description",
+      "start_date": "2020-03-09",
+      "finish_date": "2020-03-27"
+    },
+    {
+      "name": "Harar la tierra",
+      "description": "Harar la tierra description",
+      "start_date": "2020-03-09",
+      "finish_date": "2020-03-27"
+    },
+    {
+      "name": "Harar la tierra",
+      "description": "Harar la tierra description",
+      "start_date": "2020-03-09",
+      "finish_date": "2020-03-27"
+    },
+    {
+      "name": "Harar la tierra",
+      "description": "Harar la tierra description",
+      "start_date": "2020-03-09",
+      "finish_date": "2020-03-27"
+    },
+    {
+      "name": "Harar la tierra",
+      "description": "Harar la tierra description",
+      "start_date": "2020-03-09",
+      "finish_date": "2020-03-27"
+    },
+    {
+      "name": "Harar la tierra",
+      "description": "Harar la tierra description",
+      "start_date": "2020-03-09",
+      "finish_date": "2020-03-27"
+    }
+  ]
+}
